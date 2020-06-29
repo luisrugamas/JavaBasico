@@ -32,7 +32,7 @@ public class InteractuarUsuario {
             user.setNombre(scanner.nextLine());
         }while(!NOMBRE_DOCENTES.contains(user.getNombre()));
             
-            System.out.println("Digite su Edad:");
+            System.out.println("Digite su Edad TestGit:");
             user.setEdad(scanner.nextInt());
             
             System.out.println("Digite su Ocupación:");
