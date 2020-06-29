@@ -42,7 +42,7 @@ public class InteractuarUsuario {
             System.out.println("Basados en su edad uste es un " + user.getCaracteristicaBasadaEnEdad());
             System.out.println("Que operación desea realizar Digite:");
             System.out.println("P. Ingresas a juego de preguntas");
-            System.out.println("S. Salir de sistema");
+            System.out.println("S. Salir de sistema Prueba Git");
             char opcion = scanner.next().charAt(0);
             
             switch(opcion){
