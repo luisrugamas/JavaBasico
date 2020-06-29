@@ -37,7 +37,7 @@ public class InteractuarUsuario {
             
             System.out.println("Digite su Ocupación:");
             user.setOcupacion(scanner.next());
-            System.out.println("Prueba Git");
+            
             System.out.println("Bienvenido " + user.getOcupacion() + " " + user.getNombre());
             System.out.println("Basados en su edad uste es un " + user.getCaracteristicaBasadaEnEdad());
             System.out.println("Que operación desea realizar Digite:");
